@@ -1,0 +1,36 @@
+:root {
+    --red: #EF2424;
+    --green: #16A906;
+    --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+body {
+  font-family: "Vazirmatn", serif !important;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.top-nav {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.top-nav-span {
+    font-size: 18px;
+}
+
+.logo-photo {
+    width: 23px;
+    height: 23px;
+    display: inline;
+    border-radius: 50%;
+}
